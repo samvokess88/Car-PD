@@ -29,3 +29,5 @@ input_data = pd.DataFrame([{
 if st.button("Predict"):
     result = model.predict(input_data)[0]
     st.success(f"Estimated Price: ₦{result:.2f} Million")
+
+ 
