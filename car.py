@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("linear_reg_model.pkl")
+model = joblib.load("car.pkl")
 
 st.title("Car Price Prediction Model")
 
@@ -31,3 +31,4 @@ if st.button("Predict"):
     st.success(f"Estimated Price: ₦{result:.2f} Million")
 
  
+
